@@ -1,0 +1,6 @@
+# Publish branch: ignore everything except the release zip and docs site.
+/*
+!/.gitignore
+!/docs/
+!/docs/**
+!/katex-sidebar.zip

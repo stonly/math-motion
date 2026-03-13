@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Privacy Policy — KaTeX Sidebar</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+      line-height: 1.7;
+      color: #1a1a1a;
+      max-width: 680px;
+      margin: 0 auto;
+      padding: 3rem 1.5rem;
+    }
+    h1 { font-size: 1.75rem; margin-bottom: 0.25rem; }
+    h2 { font-size: 1.25rem; margin-top: 2rem; margin-bottom: 0.5rem; }
+    p, ul { margin-bottom: 1rem; }
+    ul { padding-left: 1.5rem; }
+    .updated { color: #666; font-size: 0.9rem; margin-bottom: 2rem; }
+    code { background: #f3f4f6; padding: 0.15em 0.35em; border-radius: 3px; font-size: 0.9em; }
+    a { color: #4F46E5; }
+  </style>
+</head>
+<body>
+  <h1>Privacy Policy</h1>
+  <p class="updated">KaTeX Sidebar Chrome Extension &mdash; Last updated March 2026</p>
+
+  <p>KaTeX Sidebar does not collect, store, or transmit any personal data.</p>
+
+  <h2>Data Storage</h2>
+  <p>
+    All user preferences (insertion mode, toolbar preset, font settings, and
+    symbol history) are stored locally on your device using Chrome's storage API
+    (<code>chrome.storage.local</code>). This data never leaves your browser.
+  </p>
+
+  <h2>Permissions</h2>
+  <ul>
+    <li><strong>sidePanel</strong> &mdash; Display the symbol picker sidebar.</li>
+    <li><strong>scripting</strong> &mdash; Inject content scripts for symbol insertion on non-Notion pages.</li>
+    <li><strong>activeTab</strong> &mdash; Access the current tab for inserting symbols.</li>
+    <li><strong>storage</strong> &mdash; Persist user preferences locally.</li>
+    <li><strong>clipboardRead</strong> &mdash; Read clipboard for "Paste LaTeX" and "Paste Image" features.</li>
+    <li><strong>clipboardWrite</strong> &mdash; Copy equations to clipboard via "Copy LaTeX".</li>
+  </ul>
+
+  <h2>Host Permissions</h2>
+  <p>
+    The extension requests access to <code>notion.so</code> and
+    <code>notion.site</code> domains only. This is required to detect Notion
+    math blocks and enable auto-open of the sidebar.
+  </p>
+
+  <h2>Third-Party Services</h2>
+  <p>
+    This extension does not communicate with any external servers or third-party
+    services.
+  </p>
+
+  <h2>Contact</h2>
+  <p>
+    For questions or concerns, please open an issue on the
+    <a href="https://github.com/stonly/math-motion/issues">GitHub repository</a>.
+  </p>
+
+  <p>Changes to this policy will be posted at this URL.</p>
+</body>
+</html>
